@@ -1,0 +1,1 @@
+After you'ver created the jcp database, be sure to create the Order table first before creating the other tables.  Also, the SalesTax and Item tables will need to be populated.

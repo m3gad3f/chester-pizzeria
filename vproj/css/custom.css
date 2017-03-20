@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+.lineItemDetails{ 
+	display:none; 
+	visibility:hidden
+}
+/* #FF4500 this is an orange that I would like to use somewhere.  Need to find a limegreen of the same intensity*/
+.lineItem:hover{ background-color:#9fc83b;color:#FFF;}
+
+.lineItemActive{background-color:#628213;color:#FFF;}
+
+.orderBoxBorder{
+    /*border: 1px solid black;*/
+		border: 2em solid #616482;
+   /* height: 50em;*/
+    padding: 2em;
+}
+
+.navbar-default {
+		background-color:#23275b;
+		border-color:#23275b;
+    padding-bottom: 1em;
+}
+
+.navbar-brand{ font-size:24px; font-weight:bold; color:#FF4500 !important;}
+
+.well, .orderBox{
+	border: 1px solid #A67A00;
+  background-color: #FFEAB2;
+  min-height: 10em;
+  max-height: 40em;	
+}
+.btn-default:hover {
+    color: #FFF;
+    background-color: #FF4500;
+    border-color: #A62D00;
+}
+
+
+.btn-default{ background-color:#23275b; color:#FFF;}
+#orderBtn{ color:#FFF; background-color:#FF4500; border-color:#A62D00;}
+
+.btn-default:disabled{ background-color:#DDD; color:#23275b;}
+
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #A67A00;
+}
+.well{padding: 2px;}
