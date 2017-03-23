@@ -14,7 +14,9 @@ $(document).ready(function(){
 		//Disable the void button on page load
 		$('#voidBtn').prop('disabled',true);
 		//Disable the payNow button on page load
-		$('#payNow').prop('disabled',true);		
+		$('#payNow').prop('disabled',true);
+		//Clear the Change due
+		$('#changeDue').text('');	
 		//Disable the tender button on page load
 		$('#tSale').prop('disabled',false);	
 		
